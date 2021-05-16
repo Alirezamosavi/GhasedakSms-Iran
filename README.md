@@ -12,6 +12,6 @@ GHASEDAK_LINE_NUMBERS="${GHASEDAK_LINE_NUMBERS}"
 4. add the below code in route/web.php
 Route::get('/', function () {
 
-    $sms = GhasedakSms::sendSingleSMS('alirezacvvv', '09138726138');
+    $sms = GhasedakSms::sendSingleSMS('Hello World', 'yournumber');
     //return view('welcome');
 });
